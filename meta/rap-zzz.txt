@@ -1,0 +1,72 @@
+RAP-ID (STATUS)                                                  Submission date
+--------------------------------------------------------------------------------
+                                 Proposal Title
+--------------------------------------------------------------------------------
+Author 1 <email@address1>                              Last updated: Update date
+Author 2 <email@address2>
+Author 3 <email@address3>
+
+Abstract
+========
+This document forms a template for any new Rave Architectural Proposal (RAPs).
+
+Contents
+========
+
+Rationale
+---------
+To help users new to RAPs format their RAP properly, a template where writers
+can just fill in their proposal details would provide a valuable resource.
+This prevents writers from having to figure out the except formatting details
+on their own, and can potentially harmonize new RAPs more by ensuring formatting
+homogeny.
+
+Implementation
+---------------
+This template is implemented as a meta-RAP, to be assigned the ID RAP-ZZZ.
+
+Potential issues
+----------------
+Misformatting of this document would cause newly submitted RAPs by writers who
+followed it to be badly formatted too: it would have a cascading effect.
+That is why this document would have to be kept up-to-date at all times with
+the current proposal guidelines.
+
+Due to the mixing of placeholder content (see metadata at the top) and actual
+content (see this section), writers could be confused. However, by having them
+read this very section the authors hope to clear up this confusion and state it
+should all be replaced with the actual proposal content, and that the initial
+status is 'DRAFT'. See also RAP-B[1].
+
+Alternative solutions
+---------------------
+An alternative suggestion would be to write a full style guide for RAPs.
+While arguably more effective, this can confuse new writers and potentially
+put them off writing RAPs due its sheer required size. It would also be likely
+far more text-oriented and less visual, leading to potential confusion.
+
+The authors believe a template is a simpler and thus more effective solution.
+
+Conclusion
+----------
+The authors believe a simple template like this document will provide an
+effective tool for new writers to format their RAP.
+
+References
+==========
+1: https://github.com/rave-engine/rave-proposals/blob/master/meta/rap-b.txt
+
+Disclaimer
+==========
+This document has been released into the public domain.
+
+Revisions
+=========
+
+Date 2:
+- Change 3
+- Change 4
+
+Date 1:
+- Change 1
+- Change 2
