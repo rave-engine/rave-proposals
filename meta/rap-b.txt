@@ -122,7 +122,7 @@ RAP Organisation
 The acceptance of new RAPs and their subsequent status changes, with the
 exception of the ‘WITHDRAWN’ status, are at the sole scrutiny of the rave core
 committers board. Its members are currently defined as anyone with direct commit
-access to the main engine repository[4], a list of which to be found at [5].
+access to the rave-proposal repository[4], a list of which to be found at [5].
 
 Every status change should be done by a recorded majority vote of at least
 two-thirds. These votes should be documented into the RAP as updates.
@@ -136,9 +136,9 @@ falls in.
 References
 ==========
 1: http://legacy.python.org/dev/peps/pep-0001/
-2: https://salty-salty-studios.com/shiz/dev/raps/rap-a.txt
-3: https://salty-salty-studios.com/shiz/dev/raps/rap-zzz.txt
-4: https://github.com/rave-engine/rave
+2: https://github.com/rave-engine/rave-proposals/blob/master/meta/rap-a.txt
+3: https://github.com/rave-engine/rave-proposals/blob/master/meta/rap-zzz.txt
+4: https://github.com/rave-engine/rave-proposals
 5: https://github.com/orgs/rave-engine/members
 
 Disclaimer
