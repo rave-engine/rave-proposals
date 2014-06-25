@@ -1,0 +1,44 @@
+RAP-A (DRAFT)                                                         2014/06/25
+--------------------------------------------------------------------------------
+                    Rave Architectural Proposal Index
+--------------------------------------------------------------------------------
+Shiz <hi@shiz.me>                                       Last updated: 2014/06/25
+
+Abstract
+========
+This document aims to provide an index of all currently issued RAPs, as an
+organised overview that will be kept up-to-date whenever RAPs are added,
+updated or undergo a status change.
+
+Contents
+========
+
+   id | status     | title                                     | last updated
+
+meta                           [  A...ZZZ]
+
+    A   DRAFT        RAP Index                                   2014/06/25
+    B   DRAFT        RAP Intent, Structure and Organisation      2014/06/25
+  ZZZ   DRAFT        RAP Template                                2014/06/25
+
+rave philosophies              [  1... 99]
+
+ 0001   DRAFT        rave Statement of Intent                    2014/06/24                
+
+rave core architecture         [100...199]
+
+rave core modules              [200...500]
+
+References
+==========
+None.
+
+Disclaimer
+==========
+This document has been released into the public domain.
+
+Revisions
+=========
+
+2014/06/25:
+- Initial draft.

@@ -1,0 +1,156 @@
+RAP-B (DRAFT)                                                         2013/09/28
+--------------------------------------------------------------------------------
+         Rave Architectural Proposal Intent, Structure and Organisation
+--------------------------------------------------------------------------------
+Shiz <hi@shiz.me>                                       Last updated: 2014/06/25
+
+Abstract
+========
+This document intends to document the intent and meaning behind
+Rave Architectural Proposals, henceforth known as RAPs, and their general
+structure, organization, and process. It is the starting point for anyone who
+wants to gain a deeper understanding of RAPs, or write their own.
+
+Contents
+========
+
+Rationale
+----------
+RAPs are intended as a way to properly document core functionality, philosophies
+and changes to the rave visual novel engine. This includes their rationale,
+implementation, possible flaws, and community suggestions and discussion.
+RAPs are loosely modeled after Python Enhancement Proposals (PEPs)[1], as they
+have proven to be a successful core development model for the Python language.
+
+By documenting core philosophies, functionality and changes to them, the authors
+hope to give the wider community an insight into the organisation and structure
+of the rave engine and the rationale, flaws and discussion thereof.
+As described later in this document, this also gives the wider developer
+community an opportunity to engage in discussion about new rave functionality
+and the philosophical direction thereof.
+
+RAPs are also intended to be the primary method of proposing new core features,
+modules or changes thereto, or discussing philosophy changes or clarifications.
+By adopting a wider community development model, the authors hope to make rave
+an engine that can evolve to fit the community’s requirements and adapt to
+technological changes more rapidly, as well as being subject to more peer
+scrutiny.
+
+Structure of an RAP
+-------------------
+A RAP is a plain text document, encoded in UTF-8, formatted like this
+very document, divided into five main sections.
+It should be written in English, although translations into other languages may
+be included as part of the body text. For consistency reasons, British English
+is preferred.
+
+The abstract section gives a summary of the proposal, potential flaws,
+implementation details and an eventual decision, if applicable. It serves as an
+introduction to and summary of the document.
+
+The contents section discuss the proposal in depth. This includes the underlying
+rationale, implementation details, potential issues and community discussion.
+
+The references section contains external URIs referred to in the contents
+section. These URIs are numbered according to how they are referenced in afore-
+mentioned section.
+
+The disclaimer section contains the license the RAP itself is released under.
+Unless there is is a very good reason, this should be public domain or
+equivalent.
+
+Finally, the revision section gives a short revision history of the RAP. It is
+formed as a list of dates and the changes that happened on this date. The most
+recent date will be acknowledged as the ‘last updated’ date used in the RAP
+index, RAP-A[2].
+
+Refer to RAP-ZZZ[3] for a blank template of how a RAP should look like.
+
+Acceptance of an RAP
+--------------------
+It is a wise idea for anyone who wishes to write a RAP to gauge interest of the
+community for their proposal beforehand, lest effort be expended into writing
+a proposal that was either already considered or has little following.
+
+After writing a RAP, anyone can submit it to the core committer board (see the
+‘RAP Organisation’ section for more details). This is currently done through
+GitHub: the writer is expected to open a pull request against [4] containing
+their proposal. If the core committer board deems the RAP to be in good form,
+containing a proposal worthy of discussion by a majority vote of two-thirds,
+the RAP will be assigned a number and moved into the RAP index.
+
+Every RAP initially moved into the index will have the ‘DRAFT’ status. This
+means the RAP is actively under consideration and is open for community
+discussion. From here on, a few things can happen.
+
+If flaws are found in the proposal, three things can happen. Either the RAP
+is edited to address these flaws, which only changes the Last Updated field
+of the proposal and does not influence its status. The author can also find
+the proposal not worthy of discussion any more, and move it into ‘WITHDRAWN’.
+From there on, it will be treated the same as a ‘REJECTED’ RAP. Finally,
+the author can choose not to update the proposal.
+
+If the core committers reach a consensus after having taken community
+discussion taken into account, the RAP will be either marked as ‘ACCEPTED’
+or ‘REJECTED’. An ‘ACCEPTED’ RAP will be considered active from the date it
+was marked as such, and the proposal should be implemented according to the
+details in the RAP document.
+A ‘REJECTED’ RAP, on the other hand, is considered a bad proposal for any number
+of reasons. It will be left in the RAP index, but MUST NOT be implemented.
+It should be updated to reflect the rejection reasons.
+
+If the core committers are not able to reach a consensus on the RAP, it is
+moved into ‘TRIAGED’ status. The author can vote to move it back into ‘DRAFT’
+status by either instigating more community discussion or editing the document.
+A RAP with the ‘TRIAGED’ status is considered inactive and not worthy of
+discussion by the core committer board until moved back into ‘DRAFT’ status.
+
+There is one final status, assigned at the scrutiny of the core committers.
+The ‘OBSOLETE’ status will be assigned to a proposal if the contents in it are
+deemed to be not relevant to the current project status anymore.
+The proposal must be updated with references to information or new RAPs that do
+accurately represent the status of the described subject.
+
+These five stages (‘DRAFT’, ‘TRIAGED’, ‘WITHDRAWN’, ‘REJECTED’, ‘ACCEPTED’,
+‘OBSOLETE’) are the six statuses a RAP can possibly have. Of those, only
+‘ACCEPTED’ RAPs are deemed to be relevant to how rave and the rave community
+currently behaves.  They should strive to follow accepted RAP’s documented
+behaviour and functionality at all times.
+
+RAP Organisation
+----------------
+The acceptance of new RAPs and their subsequent status changes, with the
+exception of the ‘WITHDRAWN’ status, are at the sole scrutiny of the rave core
+committers board. Its members are currently defined as anyone with direct commit
+access to the main engine repository[4], a list of which to be found at [5].
+
+Every status change should be done by a recorded majority vote of at least
+two-thirds. These votes should be documented into the RAP as updates.
+
+RAP numbers are to be handed out according to their category, as documented in
+RAP-A[1]. Meta-RAPs, like this one, are to be numbered using alphabet letters
+from A-Z, instead of numbers like normal RAPs. Aside from that, RAP numbering
+should be sequential with starting points defined by the section the proposal
+falls in.
+
+References
+==========
+1: http://legacy.python.org/dev/peps/pep-0001/
+2: https://salty-salty-studios.com/shiz/dev/raps/rap-a.txt
+3: https://salty-salty-studios.com/shiz/dev/raps/rap-zzz.txt
+4: https://github.com/rave-engine/rave
+5: https://github.com/orgs/rave-engine/members
+
+Disclaimer
+==========
+This document has been released into the public domain.
+
+Revisions
+=========
+
+2014/06/25:
+- Edited first draft.
+
+2013/09/28:
+- Initial early draft.
+
